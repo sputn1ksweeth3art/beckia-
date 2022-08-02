@@ -16,6 +16,30 @@
 		D019365B2899D32C00117D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01936592899D32C00117D98 /* LaunchScreen.storyboard */; };
 		D01936662899D32D00117D98 /* BeckiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936652899D32D00117D98 /* BeckiaTests.swift */; };
 		D01936712899D32D00117D98 /* BeckiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936702899D32D00117D98 /* BeckiaUITests.swift */; };
+		D019367F2899D46B00117D98 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019367E2899D46B00117D98 /* AboutViewController.swift */; };
+		D01936802899D46B00117D98 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019367E2899D46B00117D98 /* AboutViewController.swift */; };
+		D01936812899D46B00117D98 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019367E2899D46B00117D98 /* AboutViewController.swift */; };
+		D01936832899D48600117D98 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936822899D48600117D98 /* MapViewController.swift */; };
+		D01936842899D48600117D98 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936822899D48600117D98 /* MapViewController.swift */; };
+		D01936852899D48600117D98 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936822899D48600117D98 /* MapViewController.swift */; };
+		D01936872899D4A300117D98 /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936862899D4A200117D98 /* Example1ViewController.swift */; };
+		D01936882899D4A300117D98 /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936862899D4A200117D98 /* Example1ViewController.swift */; };
+		D01936892899D4A300117D98 /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936862899D4A200117D98 /* Example1ViewController.swift */; };
+		D019368B2899D4B300117D98 /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368A2899D4B300117D98 /* Example2ViewController.swift */; };
+		D019368C2899D4B300117D98 /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368A2899D4B300117D98 /* Example2ViewController.swift */; };
+		D019368D2899D4B300117D98 /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368A2899D4B300117D98 /* Example2ViewController.swift */; };
+		D019368F2899D4C700117D98 /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368E2899D4C700117D98 /* Example3ViewController.swift */; };
+		D01936902899D4C700117D98 /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368E2899D4C700117D98 /* Example3ViewController.swift */; };
+		D01936912899D4C700117D98 /* Example3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019368E2899D4C700117D98 /* Example3ViewController.swift */; };
+		D01936932899D4E700117D98 /* AdvocacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936922899D4E700117D98 /* AdvocacyViewController.swift */; };
+		D01936942899D4E700117D98 /* AdvocacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936922899D4E700117D98 /* AdvocacyViewController.swift */; };
+		D01936952899D4E700117D98 /* AdvocacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936922899D4E700117D98 /* AdvocacyViewController.swift */; };
+		D01936972899D4FB00117D98 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936962899D4FB00117D98 /* ActionViewController.swift */; };
+		D01936982899D4FB00117D98 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936962899D4FB00117D98 /* ActionViewController.swift */; };
+		D01936992899D4FB00117D98 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01936962899D4FB00117D98 /* ActionViewController.swift */; };
+		D019369B2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019369A2899D50E00117D98 /* GraphicsGeneratorViewController.swift */; };
+		D019369C2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019369A2899D50E00117D98 /* GraphicsGeneratorViewController.swift */; };
+		D019369D2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D019369A2899D50E00117D98 /* GraphicsGeneratorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +75,14 @@
 		D019366C2899D32D00117D98 /* BeckiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeckiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01936702899D32D00117D98 /* BeckiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeckiaUITests.swift; sourceTree = "<group>"; };
 		D01936722899D32D00117D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D019367E2899D46B00117D98 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		D01936822899D48600117D98 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D01936862899D4A200117D98 /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
+		D019368A2899D4B300117D98 /* Example2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
+		D019368E2899D4C700117D98 /* Example3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3ViewController.swift; sourceTree = "<group>"; };
+		D01936922899D4E700117D98 /* AdvocacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvocacyViewController.swift; sourceTree = "<group>"; };
+		D01936962899D4FB00117D98 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		D019369A2899D50E00117D98 /* GraphicsGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsGeneratorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +137,14 @@
 				D019364D2899D32800117D98 /* SceneDelegate.swift */,
 				D019364F2899D32800117D98 /* ViewController.swift */,
 				D01936512899D32800117D98 /* Main.storyboard */,
+				D019369A2899D50E00117D98 /* GraphicsGeneratorViewController.swift */,
+				D01936962899D4FB00117D98 /* ActionViewController.swift */,
+				D01936922899D4E700117D98 /* AdvocacyViewController.swift */,
+				D019368E2899D4C700117D98 /* Example3ViewController.swift */,
+				D019368A2899D4B300117D98 /* Example2ViewController.swift */,
+				D01936862899D4A200117D98 /* Example1ViewController.swift */,
+				D01936822899D48600117D98 /* MapViewController.swift */,
+				D019367E2899D46B00117D98 /* AboutViewController.swift */,
 				D01936572899D32C00117D98 /* Assets.xcassets */,
 				D01936592899D32C00117D98 /* LaunchScreen.storyboard */,
 				D019365C2899D32C00117D98 /* Info.plist */,
@@ -262,9 +302,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01936502899D32800117D98 /* ViewController.swift in Sources */,
+				D019368F2899D4C700117D98 /* Example3ViewController.swift in Sources */,
+				D01936832899D48600117D98 /* MapViewController.swift in Sources */,
+				D01936972899D4FB00117D98 /* ActionViewController.swift in Sources */,
 				D019364C2899D32800117D98 /* AppDelegate.swift in Sources */,
 				D01936562899D32800117D98 /* Beckia.xcdatamodeld in Sources */,
+				D019368B2899D4B300117D98 /* Example2ViewController.swift in Sources */,
+				D01936932899D4E700117D98 /* AdvocacyViewController.swift in Sources */,
+				D01936872899D4A300117D98 /* Example1ViewController.swift in Sources */,
+				D019367F2899D46B00117D98 /* AboutViewController.swift in Sources */,
 				D019364E2899D32800117D98 /* SceneDelegate.swift in Sources */,
+				D019369B2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01936802899D46B00117D98 /* AboutViewController.swift in Sources */,
+				D01936902899D4C700117D98 /* Example3ViewController.swift in Sources */,
+				D01936982899D4FB00117D98 /* ActionViewController.swift in Sources */,
+				D01936842899D48600117D98 /* MapViewController.swift in Sources */,
+				D019368C2899D4B300117D98 /* Example2ViewController.swift in Sources */,
 				D01936662899D32D00117D98 /* BeckiaTests.swift in Sources */,
+				D01936942899D4E700117D98 /* AdvocacyViewController.swift in Sources */,
+				D01936882899D4A300117D98 /* Example1ViewController.swift in Sources */,
+				D019369C2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01936812899D46B00117D98 /* AboutViewController.swift in Sources */,
+				D01936912899D4C700117D98 /* Example3ViewController.swift in Sources */,
+				D01936992899D4FB00117D98 /* ActionViewController.swift in Sources */,
+				D01936852899D48600117D98 /* MapViewController.swift in Sources */,
+				D019368D2899D4B300117D98 /* Example2ViewController.swift in Sources */,
 				D01936712899D32D00117D98 /* BeckiaUITests.swift in Sources */,
+				D01936952899D4E700117D98 /* AdvocacyViewController.swift in Sources */,
+				D01936892899D4A300117D98 /* Example1ViewController.swift in Sources */,
+				D019369D2899D50E00117D98 /* GraphicsGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
