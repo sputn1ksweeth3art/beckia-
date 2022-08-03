@@ -9,6 +9,11 @@ import UIKit
 
 class MapViewController: UIViewController {
 
+
+    @IBOutlet weak var leading: NSLayoutConstraint!
+    
+    @IBOutlet weak var trailing: NSLayoutConstraint!
+    var menuOut = false
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +21,33 @@ class MapViewController: UIViewController {
     }
     
 
+    @IBAction func menuPressed(_ sender: Any) {
+        
+        if menuOut == false {
+            leading.constant = 150
+            trailing.constant = -150
+            menuOut = true
+        } else {
+            
+            leading.constant = 0
+            trailing.constant = 0
+            menuOut = false 
+            
+            
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
+        
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
