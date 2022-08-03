@@ -33,10 +33,11 @@
                                 <color key="tintColor" red="0.33980304" green="0.42779129739999999" blue="0.29727527500000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Continue">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Continue">
+                                        <fragment content="continue">
                                             <attributes>
                                                 <color key="NSColor" red="0.74449402090000005" green="0.59833335880000005" blue="0.43116718529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <font key="NSFont" size="24" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
