@@ -9,10 +9,34 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
+    @IBOutlet weak var viewLeading: NSLayoutConstraint!
+    
+    @IBOutlet weak var viewTrailing: NSLayoutConstraint!
+    
+    var menuOut = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    
+    @IBAction func menuPressed(_ sender: Any) {
+        if menuOut == false {
+            viewLeading.constant = 150
+            viewTrailing.constant = -150
+            menuOut = true
+        }
+        else {
+            viewLeading.constant = 0
+            viewTrailing.constant = 0
+            menuOut = false
+            
+    }
+    
+        
+        
     }
     
 
