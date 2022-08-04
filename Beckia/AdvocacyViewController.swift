@@ -21,7 +21,18 @@ class AdvocacyViewController: UIViewController {
     @IBOutlet weak var ntcTitle: UIButton!
     @IBOutlet weak var ntcImage: UIButton!
     
+//activists
+ 
+    @IBOutlet weak var joycelynImage: UIButton!
+    @IBOutlet weak var joycelynTitle: UILabel!
     
+    @IBOutlet weak var vicImage: UIButton!
+    
+    @IBOutlet weak var vicTitle: UIButton!
+    
+    @IBOutlet weak var israImage: UIButton!
+    
+    @IBOutlet weak var israTitle: UIButton!
     
     
     var menuOut = false
@@ -63,24 +74,79 @@ class AdvocacyViewController: UIViewController {
     
     
     @IBAction func ieTitle(_ sender: Any) {
-        let url = URL (string: "https://www.nuestra-tierra.org/")!
-        UIApplication.shared.open (url)
-    }
-    
-    
-    @IBAction func ntcImage(_ sender: Any) {
-        let url = URL (string: "https://www.nuestra-tierra.org//")!
-        UIApplication.shared.open (url)
-    }
-    
-    
-    @IBAction func ntcTitle(_ sender: Any) {
         let url = URL (string: "https://www.intersectionalenvironmentalist.com/")!
         UIApplication.shared.open (url)
     }
     
     
-
+    @IBAction func ntcImage(_ sender: Any) {
+        let url = URL (string: "https://www.nuestra-tierra.org/")!
+        UIApplication.shared.open (url)
+    }
+    
+    
+    @IBAction func ntcTitle(_ sender: Any) {
+        let url = URL (string: "https://www.nuestra-tierra.org/")!
+        UIApplication.shared.open (url)
+    }
+    
+ //activists
+    
+    @IBAction func joycelynImage(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/climateincolour/")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func joycelynTitle(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/climateincolour/")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func vicTitle(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/vicbarrett_/?hl=en")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func vicImage(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/vicbarrett_/?hl=en")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func israImage(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/israhirsi/?hl=en")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func israTitle(_ sender: Any) {
+        let url = URL (string: "https://www.instagram.com/israhirsi/?hl=en")!
+        UIApplication.shared.open (url)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

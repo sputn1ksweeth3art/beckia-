@@ -870,7 +870,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klo-Bt-cRZ">
-                                        <rect key="frame" x="102" y="586" width="260" height="76"/>
+                                        <rect key="frame" x="101" y="585" width="260" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Co-founder of US Youth Climate Strike.">
@@ -887,16 +887,25 @@
                                         <rect key="frame" x="29" y="425" width="56" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="download (8)"/>
+                                        <connections>
+                                            <action selector="joycelynImage:" destination="XAR-56-2Yk" eventType="touchUpInside" id="m6O-BP-fnt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aX-mp-6gB">
                                         <rect key="frame" x="29" y="508" width="56" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="download (9)"/>
+                                        <connections>
+                                            <action selector="vicTitle:" destination="XAR-56-2Yk" eventType="touchUpInside" id="bsM-4u-DPi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-tf-bkb">
                                         <rect key="frame" x="29" y="586" width="56" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="download (11)"/>
+                                        <connections>
+                                            <action selector="israImage:" destination="XAR-56-2Yk" eventType="touchUpInside" id="ZDX-OX-eDb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GEn-qy-XGf">
                                         <rect key="frame" x="102" y="416" width="123" height="32"/>
@@ -912,6 +921,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="joycelynTitle:" destination="XAR-56-2Yk" eventType="touchUpInside" id="OPY-gs-Ynd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s37-Pt-bnq">
                                         <rect key="frame" x="102" y="499" width="72" height="32"/>
@@ -927,6 +939,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="vicImage:" destination="XAR-56-2Yk" eventType="touchUpInside" id="tS6-u1-KPZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Tz-3H-xYu">
                                         <rect key="frame" x="102" y="576" width="60" height="32"/>
@@ -942,6 +957,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="israTitle:" destination="XAR-56-2Yk" eventType="touchUpInside" id="K5z-be-uwG"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikc-Y8-c6t">
                                         <rect key="frame" x="29" y="376" width="141" height="32"/>
@@ -958,7 +976,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkR-xI-idh">
-                                        <rect key="frame" x="102" y="424" width="285" height="76"/>
+                                        <rect key="frame" x="101" y="444" width="285" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Creator of Climate in Color. ">
@@ -1006,10 +1024,16 @@
                         <outlet property="cjaTitle" destination="NO9-Cc-kUW" id="LKL-Qb-kb7"/>
                         <outlet property="ieImage" destination="bl8-r6-1Vv" id="CZq-yp-FtW"/>
                         <outlet property="ieTitle" destination="fR5-eF-xaH" id="PJA-4t-QsI"/>
+                        <outlet property="israImage" destination="2jx-tf-bkb" id="mGt-Bn-n01"/>
+                        <outlet property="israTitle" destination="5Tz-3H-xYu" id="GyW-ga-axG"/>
+                        <outlet property="joycelynImage" destination="XQe-kL-Xbi" id="qD0-Oz-wpO"/>
+                        <outlet property="joycelynTitle" destination="FkR-xI-idh" id="Hzb-Pl-ofx"/>
                         <outlet property="leading" destination="aM5-P9-UvY" id="XLY-sO-5Km"/>
                         <outlet property="ntcImage" destination="pIT-Pf-HFb" id="nAI-EI-86G"/>
                         <outlet property="ntcTitle" destination="jS4-Oa-fTg" id="x76-jY-GqP"/>
                         <outlet property="trailing" destination="Liv-h0-h31" id="if3-Y3-5KM"/>
+                        <outlet property="vicImage" destination="4aX-mp-6gB" id="km9-Dt-Hj1"/>
+                        <outlet property="vicTitle" destination="s37-Pt-bnq" id="Imx-54-Vkz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GRa-9v-U2W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1759,11 +1783,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6Hf-OB-akW"/>
+        <segue reference="MrX-Cd-Zfi"/>
         <segue reference="t4e-mw-pdA"/>
-        <segue reference="vc6-Of-ap5"/>
-        <segue reference="OBA-Ig-WPk"/>
-        <segue reference="plX-yC-lrg"/>
+        <segue reference="g3I-5F-pDm"/>
+        <segue reference="G8i-xo-2Jr"/>
+        <segue reference="apB-e0-unR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="UN0286416" width="765" height="510"/>
