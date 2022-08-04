@@ -11,7 +11,7 @@ class GraphicsGeneratorViewController: UIViewController {
 
     
     @IBOutlet weak var backgroundImage: UIImageView!
-    let backgroundImages = ["unnamed", "unnamed1", "unnamed2"]
+    let backgroundImages = ["graphic1", "graphic2", "graphic3", "graphic4", "graphic5", "graphic6", "graphic7"]
     
 
 override func viewDidLoad() {
