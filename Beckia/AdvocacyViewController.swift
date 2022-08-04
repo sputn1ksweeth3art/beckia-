@@ -13,6 +13,17 @@ class AdvocacyViewController: UIViewController {
     
     @IBOutlet weak var leading: NSLayoutConstraint!
     
+    
+    @IBOutlet weak var cjaImage: UIButton!
+    @IBOutlet weak var cjaTitle: UIButton!
+    @IBOutlet weak var ieImage: UIButton!
+    @IBOutlet weak var ieTitle: UIButton!
+    @IBOutlet weak var ntcTitle: UIButton!
+    @IBOutlet weak var ntcImage: UIButton!
+    
+    
+    
+    
     var menuOut = false
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,10 +46,38 @@ class AdvocacyViewController: UIViewController {
     }
     
     
+    @IBAction func cjaImage(_ sender: Any) {
+        let url = URL (string: "https://climatejusticealliance.org/about/")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func cjaTitle(_ sender: Any) {
+        let url = URL (string: "https://climatejusticealliance.org/about/")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func ieImage(_ sender: Any) {
+        let url = URL (string: "https://www.intersectionalenvironmentalist.com/")!
+        UIApplication.shared.open (url)
+    }
     
     
+    @IBAction func ieTitle(_ sender: Any) {
+        let url = URL (string: "https://www.nuestra-tierra.org/")!
+        UIApplication.shared.open (url)
+    }
     
     
+    @IBAction func ntcImage(_ sender: Any) {
+        let url = URL (string: "https://www.nuestra-tierra.org//")!
+        UIApplication.shared.open (url)
+    }
+    
+    
+    @IBAction func ntcTitle(_ sender: Any) {
+        let url = URL (string: "https://www.intersectionalenvironmentalist.com/")!
+        UIApplication.shared.open (url)
+    }
     
     
 
