@@ -9,13 +9,19 @@ import UIKit
 
 class Example3ViewController: UIViewController {
 
+    @IBOutlet weak var bangladeshButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func bangladeshButton(_ sender: Any) {
+        let url = URL (string:"https://hhrd.org/SAFRC")!
+        UIApplication.shared.open (url)
+    }
+    
     /*
     // MARK: - Navigation
 

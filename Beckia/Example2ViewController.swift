@@ -9,6 +9,9 @@ import UIKit
 
 class Example2ViewController: UIViewController {
 
+    
+    @IBOutlet weak var micronesiaButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +19,14 @@ class Example2ViewController: UIViewController {
     }
     
 
+    @IBAction func micronesiaButton(_ sender: Any) {
+        let url = URL (string: "https://www.youth4pacific.org/")!
+        UIApplication.shared.open (url)
+    }
+    
+
+    
+    
     /*
     // MARK: - Navigation
 

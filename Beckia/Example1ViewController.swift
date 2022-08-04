@@ -9,13 +9,23 @@ import UIKit
 
 class Example1ViewController: UIViewController {
 
+    
+    @IBOutlet weak var louisianaButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func louisianaButton(_ sender: Any) {
+        let url = URL (string: "https://www.enddeathalley.org/stop-formosa")!
+        UIApplication.shared.open (url)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
