@@ -9,13 +9,31 @@ import UIKit
 
 class GraphicsGeneratorViewController: UIViewController {
 
-    override func viewDidLoad() {
+    
+    @IBOutlet weak var backgroundImage: UIImageView!
+    let backgroundImages = ["unnamed", "unnamed1", "unnamed2"]
+    
+
+override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
 
+    @IBAction func randomImgPicker(_ sender: Any) {
+        
+        let randomNumber = arc4random_uniform(UInt32(backgroundImages.count)) // generating random number
+        backgroundImage.image = UIImage(named: backgroundImages[Int(randomNumber)])
+
+        
+        
+    }
+    
+  
+        
+        
+    
     /*
     // MARK: - Navigation
 
